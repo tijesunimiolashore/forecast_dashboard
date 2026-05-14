@@ -7,7 +7,7 @@ from prophet import Prophet
 st.title("Disease Forecast Dashboard")
 
 # Load dataset
-df = pd.read_csv("dataset for workshop.csv")
+df = pd.read_csv("dataset for workshop.xls")
 
 st.sidebar.header("Forecast Settings")
 
